@@ -16,11 +16,11 @@ class circulo extends FiguraGeometrica {
    public function getRadio() {
         return $this -> radio;
    }
-
+   //Devuelve el area del circulo
    private function area() {
     return pi() * ($this-> radio * $this-> radio);
    }
-//Arear * (pi * (r * r))
+    //Devuelve el perímetro del circulo
    private function perimetro($radio) {
     return 2 * pi() * $this-> radio;
    }
