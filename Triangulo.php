@@ -28,13 +28,17 @@
         public function getAltura(){
             return $this-> altura;
         }
+
+        public function getNombre(){
+            return $this->nombre;
+        }
         
         /* Devuleve area del triangulo*/
         public function area(){
             return ($this->base * $this->altura) / 2;
         }
         /* Devuleve perímetro del triangulo*/
-        public function perimeto(){
+        public function perimetro(){
             return $this->lado1 + $this->lado2 + $this->lado3;
         }
     }
