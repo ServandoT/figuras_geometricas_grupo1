@@ -19,7 +19,6 @@
         }
 
         public function distancia($punto) {
-            // TODO comprobar
             $primerParentesis = ($punto->x - $this->x) * ($punto->x - $this->x);
 
             $segundoParentesis = ($punto->y - $this->y) * ($punto->y - $this->y);
