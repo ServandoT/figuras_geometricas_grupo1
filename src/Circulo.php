@@ -1,12 +1,12 @@
 
 <?php
 include_once "FiguraGeometrica.php";
-class circulo extends FiguraGeometrica
+class Circulo extends FiguraGeometrica
 {
     //Variables
-    private $radio;
-    private $nombre;
-    private $punto;
+    protected $radio;
+    protected $nombre;
+    protected $punto;
     //Constructor
     public function __construct($nombre, $punto, $radio)
     {
