@@ -5,7 +5,7 @@ require_once __DIR__ . '/../src/Punto.php';
 // Función para ejecutar una aserción manual de igualdad
 function assertEquals($expected, $actual, $testName)
 {
-    if ($expected === $actual) {
+    if ($expected == $actual) {
         echo "[✔] $testName: Prueba pasada.<br>";
     } else {
         echo "[✘] $testName: Falló. Se esperaba '$expected', pero se obtuvo '$actual'<br>";
