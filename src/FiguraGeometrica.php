@@ -4,6 +4,7 @@
     abstract class FiguraGeometrica {
         protected $punto;
         protected $nombre;
+      
         public function __construct($nombre)
         {
             $this->nombre = $nombre;
