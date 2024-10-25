@@ -15,7 +15,7 @@ function assertEquals($expected, $actual, $testName) {
 // Pruebas unitarias simples para la clase Triangulo
 
 // Test 1: Prueba el cálculo del área de un Triangulo
-$triangulo = new Triangulo("Triangulo1", 5, 5, 5, 5, 5, 5);
+$triangulo = new Triangulo("Triangulo1", null, 5, 5, 5, 5, 5);
 $expectedArea = 5 * 5 / 2;
 $actualArea = $triangulo->area();
 assertEquals($expectedArea, $actualArea, "Prueba del cálculo del área");
